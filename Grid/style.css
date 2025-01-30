@@ -1,0 +1,64 @@
+* {
+    background-color: gray;
+}
+
+.pp {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+.box {
+    margin: 2px;
+}
+
+.a {
+    background-color: red;
+    grid-row: 1 /4;
+}
+
+.b {
+    background-color: green;
+    grid-column: 2 / 4;
+}
+
+.c {
+    background-color: yellow
+}
+
+.d {
+    background-color: blue
+}
+
+.e {
+    background-color: orange
+}
+
+.f {
+    background-color: coral;
+    grid-row: -4 /-2;
+    grid-column: 4 / 5;
+}
+
+.g {
+    background-color: aqua;
+}
+
+.h {
+    background-color: chartreuse;
+}
+
+.i {
+    background-color: darkmagenta;
+    grid-column: 1/5;
+}
